@@ -1,8 +1,8 @@
 const Discord  = require('discord.js');
 const hero     = new Discord.Client();
 const prefix   = "#";
-const category = "527591410178981888";
-const devs     = ["475396751549792277", "403512493529497601"];
+const category = "526871149745930251";
+const devs     = ["526871149745930251", "450973027853664256"];
 let mtickets   = true;
 let tchannels  = [];
 let current    = 0;
@@ -99,4 +99,4 @@ hero.on('message',async message => {
 	}
 });
 
-// ❯ , »
+client.login(process.env.BOT_TOKEN);
